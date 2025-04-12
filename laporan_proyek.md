@@ -142,10 +142,11 @@ Terdapat beberapa metrik evaluasi yang digunakan untuk melakukan evaluasi model,
 $$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
-keterangan :
-- yᵢ: Nilai aktual.
-- ŷᵢ: Nilai prediksi.
-- n: Jumlah data.
+
+**Keterangan**:  
+- $y_i$: Nilai aktual revenue untuk transaksi ke-$i$.  
+- $\hat{y}_i$: Nilai prediksi revenue untuk transaksi ke-$i$.  
+- $n$: Jumlah total transaksi dalam data.
 Cara kerja MSE :
 1. Menghitung selisih Untuk setiap data point, kurangi nilai prediksi (ŷᵢ) dari nilai aktual (yᵢ)
 2. Melakukan kuadrat selisih dan hasilnya untuk menghilangkan tanda negatif dan menekankan kesalahan besar.
