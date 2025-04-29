@@ -139,9 +139,9 @@ Terdapat beberapa metrik evaluasi yang digunakan untuk melakukan evaluasi model,
 - MSE mengukur rata-rata kuadrat selisih antara nilai aktual dan prediksi, memberikan indikasi seberapa besar kesalahan prediksi model.
 - Relevansi: Dalam konteks regresi untuk memprediksi revenue (nilai kontinu), MSE relevan karena fokus pada minimisasi kesalahan prediksi dalam satuan kuadrat revenue. Nilai MSE yang lebih kecil menunjukkan prediksi yang lebih akurat, yang penting untuk memberikan estimasi pendapatan yang dapat dipercaya kepada owner coffee shop.
 - - Formula metrik evaluasi untuk MSE adalah sebagai berikut
-$$
+
 \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-$$
+
 
 **Keterangan**:  
 - $y_i$: Nilai aktual revenue untuk transaksi ke-$i$.  
